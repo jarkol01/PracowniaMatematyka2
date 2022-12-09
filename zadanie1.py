@@ -156,7 +156,7 @@ class Zadanie1:
         
         plt.figure(facecolor = "white")
         plt.plot(param, sr_liczba_iteracji, "ro")
-        plt.title("Zależność pomiędzy parametrem Alfa a liczbą iteracji")
+        plt.title("Zależność liczby iteracji od parametru Alfa")
         plt.xlabel("Alfa")
         plt.ylabel("Liczba iteracji")
         plt.margins(0.1)
