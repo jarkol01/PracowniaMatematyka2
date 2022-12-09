@@ -164,4 +164,5 @@ class Zadanie1:
         plt.show()
     
 z1 = Zadanie1()
+z1.testy()
 z1.badaj_zbieznosc()
