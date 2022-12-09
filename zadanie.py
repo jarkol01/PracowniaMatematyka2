@@ -140,4 +140,7 @@ class Zadanie:
             wyniki += f"{sr_liczba_iteracji[i]:.2f} \t"
             wyniki += f"{sr_niedokladnosc[i]:.6e} \n"
             print(wyniki)
+
+zad1 = Zadanie()
+zad1.badaj_zbieznosc()
             
